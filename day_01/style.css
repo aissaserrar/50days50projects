@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Mulidisplay=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  height: 80vh;
+}
+
+.panel {
+  position: relative;
+  flex: 0.5;
+  margin: 10px;
+
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+
+  border-radius: 50px;
+
+  transition: flex 0.7s ease-in;
+
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 20px -5px;
+}
+.panel h3 {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+}
