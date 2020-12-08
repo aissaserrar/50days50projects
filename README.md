@@ -1,7 +1,7 @@
 # 50 Days 50 Projects
 
-- [x] DAY 1
-- [ ] DAY 2
+- [x] DAY 1 | Expanding Cards
+- [x] DAY 2 | Progress Steps
 - [ ] DAY 3
 - [ ] DAY 4
 - [ ] DAY 5
