@@ -1,10 +1,10 @@
-# 50 Days 50 Projects
+# 50 Projects 50 Days
 
 - [x] DAY 1 | Expanding Cards
 - [x] DAY 2 | Progress Steps
 - [x] DAY 3 | Rotating Navigation
 - [x] DAY 4 | Hidden Search
-- [ ] DAY 5
+- [x] DAY 5 | Blurry Loading
 - [ ] DAY 6
 - [ ] DAY 7
 - [ ] DAY 8
