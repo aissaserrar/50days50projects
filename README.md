@@ -3,7 +3,7 @@
 - [x] DAY 1 | Expanding Cards
 - [x] DAY 2 | Progress Steps
 - [x] DAY 3 | Rotating Navigation
-- [ ] DAY 4
+- [x] DAY 4 | Hidden Search
 - [ ] DAY 5
 - [ ] DAY 6
 - [ ] DAY 7
