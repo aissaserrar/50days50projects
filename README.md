@@ -5,7 +5,7 @@
 - [x] DAY 3 | Rotating Navigation
 - [x] DAY 4 | Hidden Search
 - [x] DAY 5 | Blurry Loading
-- [ ] DAY 6
+- [x] DAY 6 | Scroll Animation
 - [ ] DAY 7
 - [ ] DAY 8
 - [ ] DAY 9
