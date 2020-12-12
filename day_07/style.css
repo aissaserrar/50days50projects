@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+:root {
+    --left-bg-color: rgba(87, 84, 236, 0.7);
+    --right-bg-color: rgba(43, 43, 43, .8);
+    --left-btn-hover-color: rgba(87, 84, 236, 1);
+    --right-btn-hover-color: rgba(28, 122, 28, 1);
+
+    --hover-width: 75%;
+    --other-width: 25%
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 4rem;
+    white-space: nowrap;
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem 3.5rem;
+    font-size: 1rem;
+    transition: background .5s ease .2s;
+}
+
+.btn::before,
+.btn::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: transform .5s ease, opacity .3s ease .2s;
+}
+
+.btn::before {
+    border-bottom: .25rem solid white;
+    border-right: .25rem solid white;
+    transform: translate(10px, 10px);
+}
+
+.btn::after {
+    border-top: .25rem solid white;
+    border-left: .25rem solid white;
+    transform: translate(-10px, -10px);
+}
+
+.split.left .btn:hover {
+    background-color: var(--left-btn-hover-color)
+}
+
+.split.right .btn:hover {
+    background-color: var(--right-btn-hover-color)
+}
+
+.btn:hover::before,
+.btn:hover::after {
+    transform: translate(0, 0);
+    opacity: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+
+.split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: width .7s ease-in;
+}
+
+.split.left {
+    left: 0;
+    background: url("images/ps.jpg") no-repeat center center/cover;
+}
+
+.split.left::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-bg-color);
+
+}
+
+.split.right {
+    right: 0;
+    background: url("images/xbox.jpg") no-repeat center center/cover;
+}
+
+.split.right::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-bg-color);
+}
+
+.hover-left .left {
+    width: var(--hover-width);
+}
+
+.hover-left .right {
+    width: var(--other-width);
+}
+
+.hover-right .right {
+    width: var(--hover-width);
+}
+
+.hover-right .left {
+    width: var(--other-width);
+}
+

@@ -6,7 +6,7 @@
 - [x] DAY 4 | Hidden Search
 - [x] DAY 5 | Blurry Loading
 - [x] DAY 6 | Scroll Animation
-- [ ] DAY 7
+- [x] DAY 7 | Split Landing Page
 - [ ] DAY 8
 - [ ] DAY 9
 - [ ] DAY 10
