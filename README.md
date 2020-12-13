@@ -7,7 +7,7 @@
 - [x] DAY 5 | Blurry Loading
 - [x] DAY 6 | Scroll Animation
 - [x] DAY 7 | Split Landing Page
-- [ ] DAY 8
+- [x] DAY 8 | Form Wave Animation
 - [ ] DAY 9
 - [ ] DAY 10
 - [ ] DAY 11
