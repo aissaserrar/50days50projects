@@ -8,7 +8,7 @@
 - [x] DAY 6 | Scroll Animation
 - [x] DAY 7 | Split Landing Page
 - [x] DAY 8 | Form Wave Animation
-- [ ] DAY 9
+- [x] DAY 9 | Sound Board
 - [ ] DAY 10
 - [ ] DAY 11
 - [ ] DAY 12
