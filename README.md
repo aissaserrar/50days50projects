@@ -9,7 +9,7 @@
 - [x] DAY 7 | Split Landing Page
 - [x] DAY 8 | Form Wave Animation
 - [x] DAY 9 | Sound Board
-- [ ] DAY 10
+- [x] DAY 10 | Dad Jokes
 - [ ] DAY 11
 - [ ] DAY 12
 - [ ] DAY 13
