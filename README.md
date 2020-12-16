@@ -12,7 +12,7 @@
 - [x] DAY 10 | Dad Jokes
 - [x] DAY 11 | Event KeyCodes
 - [x] DAY 12 | FAQ Collapse
-- [ ] DAY 13
+- [x] DAY 13 | Random Choice Picker
 - [ ] DAY 14
 - [ ] DAY 15
 - [ ] DAY 16
