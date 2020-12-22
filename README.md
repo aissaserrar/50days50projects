@@ -14,7 +14,7 @@
 - [x] DAY 12 | FAQ Collapse
 - [x] DAY 13 | Random Choice Picker
 - [x] DAY 14 | Animated Navigation
-- [ ] DAY 15
+- [x] DAY 15 | Incrementing Counter
 - [ ] DAY 16
 - [ ] DAY 17
 - [ ] DAY 18
