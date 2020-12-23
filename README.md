@@ -44,7 +44,7 @@
 - [ ] DAY 42
 - [ ] DAY 43
 - [ ] DAY 44
-- [ ] DAY 45
+- [x] DAY 45
 - [ ] DAY 46
 - [ ] DAY 47
 - [ ] DAY 48
