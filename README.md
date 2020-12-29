@@ -15,7 +15,7 @@
 - [x] DAY 13 | Random Choice Picker
 - [x] DAY 14 | Animated Navigation
 - [x] DAY 15 | Incrementing Counter
-- [ ] DAY 16
+- [x] DAY 16 | Drink Water
 - [ ] DAY 17
 - [ ] DAY 18
 - [ ] DAY 19
